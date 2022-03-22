@@ -7,3 +7,7 @@ const iLovaJs = () => {
     console.log('men js ni umuman bilmiman, lekin umid qlamanki kelajakda o'rganish nyatim yo'q emas!')
 }
 ```
+
+<img src="https://github.com/Umidiy/card/blob/main/design/desktop-preview.jpg?raw=true" alt="bu joyiha haqida">
+
+<input type="text" placeholder="not working"/>
