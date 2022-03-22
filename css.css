@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #d6e1ff;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow:  0 2px 13px rgba(0, 0, 0, .5);
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+.head {
+    background-image: url('./images/illustration-hero.svg');
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    height: 220px;
+    width: 100%;
+}
+
+.card__body {
+    margin-top: 200px;
+}
+
+.card__body--title {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.card__body--title h3 {
+    color: #393f86;
+    padding: 10px 0;
+    text-transform: capitalize;
+}
+
+.card__body--title p {
+    color: #666;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px 30px;
+    font-size: 14px;
+}
+
+.card__body--info {
+    padding: 10px 30px;
+    border-radius: 15px;
+    background: #eff3fd;
+    margin: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info__box {
+    display: flex;
+    align-items: center;
+}
+
+.text-box {
+    padding-left: 20px;
+}
+
+.text-box h3 {
+    color: #393f86;
+    text-transform: capitalize;
+}
+
+.text-box p {
+    color: #666;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.icon {
+    background: #d6e1ff;
+    color: #393f86;
+    padding: 13px;
+    border-radius: 50%;
+}
+
+.card__body--btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    width: 60%;
+    padding: 13px 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.288);
+    margin: 5px auto;
+    color: #fff;
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: #353fb1;
+}
+
+.btn-outline {
+    box-shadow: none;
+    color: #666;
+    background: #fff;
+}
+
+@media only screen and (max-width: 405px) {
+    .card {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .card {
+        width: 290px;
+    }
+
+        
+    .text-box h3 {
+        font-size: 13px;
+    }
+
+    .text-box p {
+        font-size: 10px;
+    }
+
+    .card__body--info {
+        padding: 20px 5px;
+    }
+}
