@@ -4,6 +4,6 @@
 
 ```javascript
 const iLovaJs = () => {
-    console.log('men js ni umuman bilmiman, lekin umid qlamanki kelajakda o\'rganish nyatim yo\'q emas!')
+    console.log('men js ni umuman bilmiman, lekin umid qlamanki kelajakda o'rganish nyatim yo'q emas!')
 }
 ```
